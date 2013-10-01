@@ -1,0 +1,17 @@
+A) I typed in the terimal:	python manage.py syncdb
+				python manage.py runserver
+I went to: http://127.0.0.1:8000/movies
+
+B) the URL in the browser: http://127.0.0.1:8000/movies/1/
+   URL of the second movie: http://127.0.0.1:8000/movies/2/
+   100 movies: http://127.0.0.1:8000/movies/100/
+
+c) the function that gets callede is: def add_movie
+   "http://127.0.0.1:8000/movies/5/" the function that gets called is: def movie
+
+when you type “http://127.0.0.1:8000/shrek” into the browser it won`t work because there is no reference to it in url.py
+
+
+
+
+
