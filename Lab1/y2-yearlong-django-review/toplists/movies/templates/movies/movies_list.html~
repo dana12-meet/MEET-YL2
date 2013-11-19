@@ -27,16 +27,12 @@
 
 <!-- a form for adding a movie -->
 Or add your own movie:<br>
-<form action="movies/addmovie" method="post">
+<form action="movie/addmovie" method="post">
 {% csrf_token %}
 Title: <input type="text" name="movie_title"><br>
 <input type="submit" value="Add">
 </form>
 
 
-<form action="movies/addcomment" method="post">
-{% csrf_token %}
-Comment: <input type="text" name="comment_text"><br>
-<input type="submit" value="Add">
-</form>
+
 {% endblock %}
